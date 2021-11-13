@@ -1,0 +1,24 @@
+CREATE DATABASE vaccination;
+
+CREATE TABLE vaccine (
+	vaccineID int(11) not null AUTO_INCREMENT PRIMARY KEY,
+    name TINYTEXT not null,
+    email TINYTEXT not null,
+    phoneNumber VARCHAR(25) not null,
+    identityNumber TINYTEXT not null,
+    date TINYTEXT not null,
+    time TINYTEXT not null
+);
+
+INSERT INTO vaccine(name, email, phoneNumber, identityNumber, date, time) VALUES("Vainius", "vainius.daraskevicius@gmail.com", "37069523158", "39912162222", "2021-11-17", "14:00"), 
+("Beata", "beata.daraskeviciute@gmail.com", "+37069523159", "39912163333", "2021-11-17", "15:00"),
+("Vainius", "vai.dar@gmail.com", "37069523150", "39912161234", "2021-11-17", "08:00"),
+("Vainius", "vai.dar7@gmail.com", "37069523151", "39912161235", "2021-11-17", "09:00"),
+("Vainius", "vai.dar6@gmail.com", "37069523152", "39912162345", "2021-11-17", "10:00"),
+("Vainius", "vai.dar5@gmail.com", "37069523153", "39912163567", "2021-11-17", "11:00"),
+("Vainius", "vai.dar4@gmail.com", "37069523154", "39912161256", "2021-11-17", "12:00"),
+("Vainius", "vai.dar3@gmail.com", "37069523155", "39912161357", "2021-11-17", "13:00"),
+("Vainius", "vai.dar2@gmail.com", "37069523156", "39912161532", "2021-11-17", "17:00"),
+("Vidmantas", "vidmant.dar2@gmail.com", "37069523111", "39912161511", "2021-11-16", "08:00"),
+("Vainius", "vai.dar1@gmail.com", "37069523157", "39912161753", "2021-11-17", "16:00");
+
